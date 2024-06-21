@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Inter_Tight/InterTight-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 350;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Inter_Tight/InterTight-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: "Roboto" !important;
+}
+
+.vertical-separator-char {
+  font-weight: bold;
+  color: red;
+  margin: 0 10px;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #e7e7e7;
+}
+
+::-webkit-scrollbar-track:active {
+  background-color: #b8c0c2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #b8c1cc;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  border-radius: 5px;
+  background-color: #8795aa;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  border-radius: 5px;
+  background-color: #406dc7;
+}
